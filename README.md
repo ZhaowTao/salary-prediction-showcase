@@ -95,4 +95,4 @@ flowchart LR
 
 ---
 
-© 2026 赵文涛 · [GitHub](https://github.com/ZhaowTao) · [作品集](https://zhaowtao.github.io/grz/)
+© 2026 Dawn · [GitHub](https://github.com/ZhaowTao) · [作品集](https://zhaowtao.github.io/grz/)
