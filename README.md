@@ -40,12 +40,50 @@ flowchart LR
 - **AI 助手（Function Calling）**：用户可用自然语言追问，助手调用工具取数作答。
 - **PDF 报告导出**：一键生成带图表的分析报告。
 
-## 截图与 Demo
+## 系统截图
 
-> 放入 `assets/`（截图均带 `© 赵文涛 2026` 水印）：
-> - `assets/dashboard.png` — 可视化大屏
-> - `assets/report.png` — PDF 报告样例
-> - `assets/demo.mp4` — 系统演示
+### 系统架构
+
+![系统架构图](assets/architecture.png)
+
+### UI 界面
+
+**登录页**
+![登录页](assets/ui-login.png)
+
+**薪资预测（4 步向导）**
+![薪资预测表单](assets/ui-prediction-form.png)
+
+**数据可视化大屏（45,002 岗位 · 多维分析）**
+![数据可视化大屏](assets/ui-dashboard.png)
+
+**AI 智能助手（Function Calling）**
+![AI助手](assets/ui-ai-assistant.png)
+
+### 设计文档
+
+**用例图** | **E-R 图** | **数据采集流程（Selenium）**
+---|---|---
+![用例图](assets/use-case-diagram.png) | ![E-R图](assets/er-diagram.png) | ![采集流程](assets/data-collection-flowchart.png)
+
+**薪资预测时序图** | **AI 助手流程（Groq API）**
+---|---
+![预测时序](assets/prediction-sequence-diagram.png) | ![AI助手流程](assets/ai-assistant-flowchart.png)
+
+### 实验结果
+
+**五模型对比（含 Stacking 融合：MAE 1,453 / R² 0.884）**
+![模型对比](assets/model-comparison-stacking.png)
+
+**SHAP 可解释性分析（单样本："工作经验 +3,200 元"）**
+![SHAP Force Plot](assets/shap-force-plot.png)
+
+**特征重要性排序**
+![特征重要性](assets/feature-importance.png)
+
+## Demo 入口
+
+> 微信搜索「人森梦」可体验作者的另一款 AI 产品（MBTI 性格探索小程序，12,568 用户）。本薪资系统为 Web 应用，截图如上所示。
 
 ## 本仓库不包含（刻意保留为私有）
 
